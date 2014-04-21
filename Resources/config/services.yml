@@ -1,0 +1,9 @@
+parameters:
+    s4a_time_ago.timezone: Europe/Paris
+
+services:
+    s4a_time_ago.twig.timeago_extension:
+        class: S4a\TimeAgoBundle\Twig\TimeAgoExtension
+        arguments: [@translator, "%s4a_time_ago.timezone%"]
+        tags:
+            - { name: twig.extension }

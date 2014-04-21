@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>s4a.timeago.since.second</source>
+                <target>few seconds ago.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>s4a.timeago.since.minute</source>
+                <target>about a minute.|%number% minutes ago.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>s4a.timeago.since.hour</source>
+                <target>about an hour.|%number% hours ago.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>s4a.timeago.since.day</source>
+                <target>about a day.|%number% days ago.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>s4a.timeago.since.month</source>
+                <target>about a month.|%number% months ago.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>s4a.timeago.since.year</source>
+                <target>about a year.|%number% years ago.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>s4a.timeago.in.second</source>
+                <target>in few seconds.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>s4a.timeago.in.minute</source>
+                <target>in a minute.|in %number% minutes.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>s4a.timeago.in.hour</source>
+                <target>in an hour.|in %number% hours.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>s4a.timeago.in.day</source>
+                <target>in a day.|in %number% days.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>s4a.timeago.in.month</source>
+                <target>in a month.|in %number% months.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>s4a.timeago.in.year</source>
+                <target>in a year.|in %number% years.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

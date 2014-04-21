@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>s4a.timeago.since.second</source>
+                <target>il y a quelques secondes.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>s4a.timeago.since.minute</source>
+                <target>il y a environ une minute.|il y a %number% minutes.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>s4a.timeago.since.hour</source>
+                <target>il y a environ une heure.|il y a %number% heures.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>s4a.timeago.since.day</source>
+                <target>il y a environ un jour.|il y a %number% jours.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>s4a.timeago.since.month</source>
+                <target>il y a environ un mois.|il y a %number% mois.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>s4a.timeago.since.year</source>
+                <target>il y a environ un an.|il y a %number% ans.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>s4a.timeago.in.second</source>
+                <target>dans quelques secondes.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>s4a.timeago.in.minute</source>
+                <target>dans une minute.|dans %number% minutes.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>s4a.timeago.in.hour</source>
+                <target>dans une heure.|dans %number% heures.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>s4a.timeago.in.day</source>
+                <target>dans un jour.|dans %number% jours.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>s4a.timeago.in.month</source>
+                <target>dans un mois.|dans %number% mois.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>s4a.timeago.in.year</source>
+                <target>dans un an.|dans %number% ans.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
