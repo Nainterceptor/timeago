@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>S4aTimeago by spider4all</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>S4aTimeago</h1>
+        <p>Simple Bundle for Symfony. Display a time in relative string from now.</p>
+
+        <p class="view"><a href="https://github.com/spider4all/timeago">View the Project on GitHub <small>spider4all/timeago</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/spider4all/timeago/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/spider4all/timeago/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/spider4all/timeago">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="s4atimeagobundle" class="anchor" href="#s4atimeagobundle"><span class="octicon octicon-link"></span></a>S4aTimeAgoBundle</h1>
+
+<p>This simple bundle exist to provide a simple date to string conversion like "few seconds ago"...</p>
+
+<h1>
+<a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h1>
+
+<p>Please add in your composer dependencies :</p>
+
+<pre><code>"spider4all/timeagobundle": "dev-master"
+</code></pre>
+
+<p>Please launch php composer.phar update</p>
+
+<p>Please add to your AppKernel.php :</p>
+
+<pre><code>new S4a\TimeAgoBundle\S4aTimeAgoBundle(),
+</code></pre>
+
+<h1>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h1>
+
+<pre><code>date|timeago[(now[, timezone])]
+</code></pre>
+
+<p>First parameter : Actual date (to simulate the view at day X)
+Second parameter : Timezone</p>
+
+<h2>
+<a name="configure-timezone" class="anchor" href="#configure-timezone"><span class="octicon octicon-link"></span></a>Configure Timezone</h2>
+
+<p>Override s4a_time_ago.timezone parameter to change default timezone (Europe/Paris)</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/spider4all">spider4all</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
